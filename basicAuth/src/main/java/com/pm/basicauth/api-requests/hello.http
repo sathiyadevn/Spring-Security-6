@@ -1,0 +1,6 @@
+#@creds = user:2741a6fe-53c1-41a9-a65d-ef87c68dd1c8
+#@creds = dev43:1234
+#@basicAuth = {{creds.encodeBase64()}}
+
+GET http://localhost:8080/hello
+Authorization: Basic {dev43:1234}
